@@ -21,6 +21,7 @@ button.onclick = function () {
     result2.innerHTML = (result.innerHTML - sum);
     inputSum.value = '';
     inputPerc.value = '';
+    inputMonth.value = '';
     err.innerHTML = ''
     } else {
         result.innerHTML = '';
